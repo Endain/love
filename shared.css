@@ -1,3 +1,7 @@
+html {
+    touch-action: none;
+}
+
 .nav-button {
     position: absolute;
     top: 10px;
