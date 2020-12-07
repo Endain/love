@@ -1,0 +1,40 @@
+.nav-button {
+    position: absolute;
+    top: 10px;
+    border: 2px solid #ffffff;
+    border-radius: 3px;
+    background: rgba(64,64,64,0.5);
+    color: #ffffff;
+    font-size: 24px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    cursor: pointer;
+    font-family: system-ui;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-button.left {
+    left: 10px;
+}
+
+.nav-button.right {
+    right: 10px;
+    transform: scale(-1, 1);
+}
+
+.nav-button.round {
+    border-radius: 999px;
+    line-height: 1em;
+    min-width: 1em;
+    min-height: 1em;
+}
+
+.nav-button.dark {
+    border: 2px solid #111111;
+    background: rgba(192,192,192,0.5);
+    color: #111111;
+}
