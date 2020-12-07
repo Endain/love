@@ -130,16 +130,16 @@ var dt = 1 / 60;
 var current = null;
 
 // Set up machine canvas
-machineCanvas.width = machineCanvas.clientWidth;
-machineCanvas.height = machineCanvas.clientHeight;
-ctxMachine.width = machineCanvas.clientWidth;
-ctxMachine.height = machineCanvas.clientHeight;
+machineCanvas.width = 512;
+machineCanvas.height = 512;
+ctxMachine.width = 512;
+ctxMachine.height = 512;
 
 // Set up drawing canvas
-drawingCanvas.width = drawingCanvas.clientWidth;
-drawingCanvas.height = drawingCanvas.clientHeight;
-ctxDrawing.width = drawingCanvas.clientWidth;
-ctxDrawing.height = drawingCanvas.clientHeight;
+drawingCanvas.width = 512;
+drawingCanvas.height = 512;
+ctxDrawing.width = 512;
+ctxDrawing.height = 512;
 
 /*
 var root = new Wheel(0, 32, (2 * Math.PI) / 16);
