@@ -4,8 +4,8 @@ canvas {
     width: 800px;
     height: 800px;
     position: absolute;
-    top: calc(100% - 400px);
-    left: calc(100% - 400px);
+    top: calc(50% - 400px);
+    left: calc(50% - 400px);
 }
 
 #machine {
